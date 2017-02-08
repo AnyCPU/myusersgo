@@ -1,4 +1,4 @@
-lanuguage: go
+language: go
 go:
     - 1.2.*
     - 1.3.*
@@ -8,8 +8,6 @@ go:
     - 1.7.*
     - 1.8.*
     - master
-
-sudo: true
 
 install:
     - got get -v
