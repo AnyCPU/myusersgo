@@ -1,13 +1,17 @@
 # My users go
+
 ## Version 1.0.0
+
 ## Description
 The `My users go` utility helps to back your MySql users up. The utility was tested on both MySql 5.6.* and MySql 5.7.* versions, also may work with the other versions.
+
 ## Installation
 * Install [Go Language](https://golang.org/)
 * Set `GOPATH` environment variable if use Go 1.7 and below
 * Install [MySql driver](https://github.com/go-sql-driver/mysql) - `go get github.com/go-sql-driver/mysql`
 * Run `build.bat` or `go build -ldflags "-s -w" -o myusersgo.exe myusers.go`
 * Dump your users `./myusersgo.exe <params>` (on Unix) or `.\myusersgo.exe <params>` (on Windows)
+
 ## Command line
 * `-u <name>` - user name (default "root")
 * `-p <password>` - user password (default "12345")
@@ -16,6 +20,7 @@ The `My users go` utility helps to back your MySql users up. The utility was tes
 * `-d <name>` - db name with users (default "mysql")
 * `-v` - show version information and exit
 * `-h` - show help and exit
+
 ## License
 ```
 BSD 2-Clause License
@@ -44,6 +49,7 @@ CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
 OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 ```
+
 ## Changelog
 * __1.0.0__ - 2017.02.08
   * First release
