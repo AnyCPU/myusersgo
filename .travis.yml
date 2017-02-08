@@ -10,7 +10,7 @@ go:
     - master
 
 install:
-    - got get -v
+    - go get -v
 
 script:
     - go build -v
