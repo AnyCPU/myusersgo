@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.org/AnyCPU/myusersgo.svg?branch=master)](https://travis-ci.org/AnyCPU/myusersgo)
 # My users go
 
 ## Version 1.0.0
